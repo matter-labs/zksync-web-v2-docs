@@ -2,7 +2,8 @@
 
 ### Faucet, bridge, wallet
 
-[zkSync 2.0 Portal](https://portal.zksync.io).
+- [zkSync 2.0 Portal](https://portal.zksync.io).
+- [FoxWallet](https://foxwallet.com/)
 
 ### Block explorer
 
