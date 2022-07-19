@@ -373,7 +373,7 @@ Open `./src/App.vue` and set the `GREETER_CONTRACT_ADDRESS` constant equal to th
 To interact with zkSync's smart contract, its ABI is also needed.
 
 - Create the `./src/abi.json` file.
-- You can get the contract's ABI in the hardhat project folder from the previous section in the `./artifacts/contracts/tmp/Flattened.sol/Greeter.json` file. You should copy the `abi` array and paste it into the `abi.json` created in the previous step. The file should look roughly the following way:
+- You can get the contract's ABI in the hardhat project folder from the previous section in the `./artifacts-zk/contracts/Greeter.sol/Greeter.json` file. You should copy the `abi` array and paste it into the `abi.json` created in the previous step. The file should look roughly the following way:
 
 ```json
 [
