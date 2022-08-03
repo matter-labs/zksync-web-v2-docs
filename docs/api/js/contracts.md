@@ -4,4 +4,4 @@
 
 Since deploying smart contracts on zkSync has some differences from deploying on Ethereum, there is a need for a specific `ContractFactory` method. It supports the same interface as `ethers.ContractFactory`.
 
-In order to pay for smart contract interactions in ERC20 tokens, `customData` override should be used. You can read more about accessing zkSync features in [the next chaper](./features).
+In order to pay for smart contract interactions in ERC20 tokens, `customData` override should be used. You can read more about accessing zkSync features in [the next chaper](./features.md).
