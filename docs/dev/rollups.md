@@ -24,7 +24,7 @@ On Ethereum, as in Bitcoin, finality is probabilistic, i.e. the more blocks that
 
 In ZK rollups, once a block has been filled and sealed, its state is committed to the main Ethereum chain. The proving step is then initiated, and a SNARK validity proof is generated for all the block transactions. Once completed, the SNARK is submitted for verification on the L1 smart contract, and after being verified, the transaction state becomes final.
 
-Note that _finality_ from the zkSync perspective happens when the transaction (the SNARK verification) is processed by L1. At this stage, the guarantees are exactly like any other L1 transaction within the same L1 block; the more L1 blocks that generated after the initial block is processed, the lesser the chance that this transaction will be reverted.
+Note that _finality_ from the zkSync perspective happens when the transaction (the SNARK verification) is processed by L1. At this stage, the guarantees are exactly like any other L1 transaction within the same L1 block; the more L1 blocks generated after the initial block is processed, the lesser the chance that this transaction will be reverted.
 
 At the moment, when a user sends a transaction, zkSync waits for the entire block to be filled, meaning finality time may take longer depending on the volume of transactions being submitted via zkSync. As throughput increases, the finality time will subsequently decrease.
 
